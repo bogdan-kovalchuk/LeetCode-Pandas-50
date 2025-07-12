@@ -4,14 +4,8 @@ import pandas as pd
 def confirmation_rate(
     signups: pd.DataFrame, confirmations: pd.DataFrame
 ) -> pd.DataFrame:
-    confirmations = signups[["user_id"]].merge(confirmations, how="left")
-    confirmations["confirmation_rate"] = confirmations["action"] == "confirmed"
-    confirmations["confirmation_rate"] = confirmations["confirmation_rate"].replace(
-        {False: 0, True: 1}
-    )
+    merged = signups.merge(confirmations, on="user_id", how="left")
+    merged["confirmation_rate"] = (merged["action"] == "confirmed").astype(int)
     return (
-        confirmations.groupby("user_id")["confirmation_rate"]
-        .mean()
-        .reset_index()
-        .round(2)
+        merged.groupby("user_id", as_index=False)["confirmation_rate"].mean().round(2)
     )
