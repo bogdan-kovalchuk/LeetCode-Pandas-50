@@ -45,7 +45,7 @@ Curated table of selected SQL + Pandas problems on LeetCode.
 | 626 | [Exchange Seats](https://leetcode.com/problems/exchange-seats/) | [Python](./06%20-%20Subqueries/626.%20Exchange%20Seats.py) | Medium |
 | 1341 | [Movie Rating](https://leetcode.com/problems/movie-rating/) | [Python](./06%20-%20Subqueries/1341.%20Movie%20Rating.py) | Medium |
 | 1321 | [Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) | [Python](./06%20-%20Subqueries/1321.%20Restaurant%20Growth.py) | Medium |
-| 602 | [Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii:-who-has-the-most-friends/) | [Python](./06%20-%20Subqueries/602.%20Friend%20Requests%20II.%20Who%20Has%20the%20Most%20Friends.py) | Medium |
+| 602 | [Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) | [Python](./06%20-%20Subqueries/602.%20Friend%20Requests%20II.%20Who%20Has%20the%20Most%20Friends.py) | Medium |
 | 585 | [Investments in 2016](https://leetcode.com/problems/investments-in-2016/) | [Python](./06%20-%20Subqueries/585.%20Investments%20in%202016.py) | Medium |
 | 185 | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | [Python](./06%20-%20Subqueries/185.%20Department%20Top%20Three%20Salaries.py) | Hard |
 | 1667 | [Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | [Python](./07%20-%20Advanced%20String%20Functions%20%2C%20Regex%20%2C%20Clause/1667.%20Fix%20Names%20in%20a%20Table.py) | Easy |
